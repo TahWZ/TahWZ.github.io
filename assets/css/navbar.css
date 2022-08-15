@@ -1,0 +1,149 @@
+nav{
+    background-color: var(--nav-bg-color);
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    border: 1px solid #393838;
+}
+
+nav .nav-bar{
+    background-color: var(--nav-bg-color);
+    position: relative;
+    height: 100%;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen{
+    color: var(--nav-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .navlogo a,
+nav .nav-bar .menulogo a{
+    color: var(--nav-color);
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav .nav-bar .sublogo a{
+    color: var(--nav-color);
+}
+
+.menu .logo-toggle{
+    display: none;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--nav-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links li a::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--nav-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before{
+    opacity: 1;
+}
+
+.nav-links li a.active::before{
+    opacity: 1;
+}
+
+.nav-bar .media-icons a{
+    color: var(--nav-color);
+    font-size: 18px;
+    margin: 0 6px;
+}
+
+@media (max-width: 1000px) {
+    nav .nav-bar .sidebarOpen{
+        display: block;
+    }
+
+    .menu{
+        background-color: var(--side-nav);
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    nav.active .menu{
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navlogo a{
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    nav.active .nav-bar .sublogo a{
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu .logo-toggle{
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose{
+        color: var(--nav-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a{
+        display: block;
+        margin-top: 20px;
+    }
+}

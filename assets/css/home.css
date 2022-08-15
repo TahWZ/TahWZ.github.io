@@ -1,0 +1,40 @@
+.home .profile-image {
+    margin-right: 30px;
+    height: 480px;
+    width: 480px;
+}
+
+.home .profile-container{
+    min-height: 540px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.home .profile-container .name {
+    color: var(--home-name);
+    font-size: 64px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.home .profile-container .media-icons a {
+    color: var(--home-media);
+    background-color: var(--home-media-bg);
+    font-size: 20px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.home .profile-container .media-icons a:hover {
+    color: var(--home-hover-media-bg);
+    background-color: var(--home-hover-media);
+    outline: 1px solid var(--home-hover-media-bg);
+}

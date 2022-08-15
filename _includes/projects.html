@@ -1,0 +1,46 @@
+<div class="projects">
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-12 col-12">
+                <section class="projects section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">    
+                                                
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">{{ site.data.data.highlight-project.title }}</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>{{ site.data.data.highlight-project.description }}</p>
+                                </div>        
+                                <a class="btn btn-cta" href="#" target="_blank">View article <i class="fa-solid fa-arrow-right"></i></a>                 
+                            </div>
+                            <hr class="divider" />
+                            <div class="item row">
+                                {% for project in site.data.data.projects %}
+                                    <a class="col-md-4 col-12" href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.png" alt="project name" />
+                                    </a>
+                                    <div class="desc col-md-8 col-12">
+                                        <h3 class="title"><a href="#" target="_blank">{{ project.name }}</a></h3>
+                                        <p class="mb-2">{{ project.description }}</p>
+                                        <p><a class="more-link" href="#" target="_blank"><i class="fas fa-external-link-alt"></i>View on GitHub</a></p>
+                                    </div>       
+                                {% endfor %}                 
+                            </div>
+
+                        </div>
+                    </div>           
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+

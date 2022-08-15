@@ -1,0 +1,240 @@
+.section {
+  margin-bottom: 30px;
+}
+
+.section .section-inner {
+  background: var(--section-inner);
+  padding: 30px;
+}
+
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: var(--section-heading);
+  font-size: 24px;
+}
+
+.section .content .more-link{
+  color: var(--section-more-link);
+}
+
+.section .content .more-link .svg-inline--fa {
+  margin-right: 5px;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+
+/* Projects Section */
+.projects .item {
+  margin-bottom: 30px;
+}
+
+.projects .item .title {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.projects .item .title .label {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.projects .item .title a {
+  color: var(--projects-title);
+}
+
+.projects .item .title a:hover {
+  color: var(--projects-hover-title);
+}
+
+.projects .item .project-image:hover {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+
+.projects .divider {
+  margin-bottom: 60px;
+}
+
+.projects .featured {
+  margin-bottom: 60px;
+}
+
+.projects .featured .title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.projects .featured .summary {
+  margin-bottom: 30px;
+  color: var(--projects-summary);
+}
+
+.projects .featured img {
+  margin-bottom: 30px;
+}
+
+.projects .featured .desc {
+  margin-bottom: 30px;
+}
+
+/* Publications Section */
+.publications .item {
+  margin-bottom: 30px;
+}
+
+.publications .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.publications .item .title a {
+  color: var(--publish-title);
+}
+
+.publications .item .title a:hover {
+  color: var(--publish-hover-title);
+}
+
+/* Work Section */
+.experience .item {
+  margin-bottom: 30px;
+}
+
+.experience .item .title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.experience .item .title .place {
+  color: var(--experience-title);
+  font-weight: normal;
+}
+
+.experience .item .title .place a {
+  color: var(--experience-title);
+}
+
+.experience .item .title .place a:hover {
+  color: var(--experience-hover-title);
+}
+
+.experience .item .title .year {
+  color: var(--experience-year);
+  font-weight: normal;
+}
+
+/* Info Section */
+.info .svg-inline--fa {
+  margin-right: 15px;
+  color: var(--info-media);
+}
+
+.info ul {
+  margin-bottom: 0;
+}
+
+.info li {
+  margin-bottom: 15px;
+}
+
+.info li:last-child {
+  margin-bottom: 0;
+}
+
+/* Skills Section */
+.skills .intro {
+  margin-bottom: 30px;
+}
+
+.skills .skillset .item {
+  margin-bottom: 30px;
+}
+
+.skills .skillset .level-title {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+}
+
+.skills .skillset .level-title .level-label {
+  color: var(--skill-title);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.skills .skillset .level-bar {
+  height: 15px;
+  background: var(--skill-level-bar);
+}
+
+.skills .skillset .level-bar-inner {
+  height: 15px;
+  background: var(--skill-level-inner);
+}
+
+.skills .svg-inline--fa {
+  margin-right: 3px;
+  position: relative;
+  top: 0;
+}
+
+/* Education section */
+.education .item {
+  margin-bottom: 30px;
+}
+
+.education .item:last-child {
+  margin-bottom: 0;
+}
+
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.education .item .university {
+  font-family: "Lato", arial, sans-serif;
+  font-size: 13px;
+  color: var(--education-uni);
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+.education .item .university .year {
+  color: var(--education-year);
+  font-weight: 500;
+}
+
+/* Language Section */
+.languages .item {
+  margin-bottom: 15px;
+}
+
+.languages .item .title {
+  color: var(--language-title);
+}
+
+.languages .item .level {
+  color: var(--language-level);
+}
+
+.languages .item:last-child {
+  margin-bottom: 0;
+}
+
+.languages .item .svg-inline--fa {
+  color: var(--language-star);
+}

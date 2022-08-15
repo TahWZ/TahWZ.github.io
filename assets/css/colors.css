@@ -1,0 +1,83 @@
+:root{
+    /* Loading */
+    --loading-bg-color: #111;
+    --loading-icon-color: #fff;
+
+    /* Nav */
+    --nav-bg-color: #242526;
+    --nav-color: #FFF;
+    --side-nav: #242526;
+
+    /* Main */
+    --body: #434343;
+    --body-bg: #e0e0e0;
+    --h-default: #778492;
+    --a-default: #778492;
+
+    /* ==========( Sections )========== */
+    --section-inner: #fff;
+    --section-heading: #545e69;
+    --section-more-link: #4070f4;
+
+    /* Projects */
+    --projects-title: #778492;
+    --projects-hover-title: #5f6b77;
+    --projects-summary: #778492;
+
+    /* Publications */
+    --piblish-title: #778492;
+    --publish-hover-title: #5f6b77;
+
+    /* Experience */
+    --experience-title: #999;
+    --experience-hover-title: #666666;
+    --experience-year: #999;
+
+    /* Info */
+    --info-media: #ccd1d6;
+
+    /* Skills */
+    --skill-title: #ccd1d6;
+
+    /* Education */
+    --education-uni: #999;
+    --education-year: #b0b7bf;
+
+    /* Languages */
+    --language-title: #778492;
+    --language-level: #999;
+    --language-star: #31bacd;
+
+    /* Home */
+    --home-name: #49515a;
+    --home-media: #fff;
+    --home-media-bg: #111;
+    --home-hover-media: #111;
+    --home-hover-media-bg: #fff;
+
+    /* ============================== */
+
+    /* Buttons */
+    --btn: #fff;
+    --btn-bg: #31bacd;
+    --btn-border: #31bacd;
+    --btn-hover: #fff;
+    --btn-hover-bg: #4070f4;
+    --btn-hover-border: #4070f4;
+
+    /* Contact */
+    --contact-bg: #fff;
+    --left-media: #5029bc;
+    --left-topic: #111;
+    --left-text: #afafb6;
+    --left-before: #afafb6;
+    --right-topic: #5029bc;
+    --right-textarea: #F0F1F8;
+    --right-button-bg: #5029bc;
+    --right-button-text: #fff;
+    --right-hover-button-bg: #902bf5;
+
+    /* Footer */
+    --foot-bg-color: #242526;
+    --foot-color: #FFF;
+}

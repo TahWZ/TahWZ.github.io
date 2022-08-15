@@ -1,2 +1,77 @@
-home:
-  title: Title
+profile:
+  name: Tah Wen Zhong
+  role: Computer Science Fresh Graduate
+  location: Selangor, Malaysia
+  description: Description placeholder
+
+contact:
+  email: tahwenzhong@gmail.com
+  phone: 0123294860
+  whatsapp: 0123294860
+  linkedin: http
+  github: https://github.com/TahWZ
+
+work-experience:
+  - company: Company placeholder
+    location: Malaysia
+    duration: (2022-2022)
+    description: Description placeholder
+
+education:
+  - program: Program placeholder
+    location: University placeholder
+    duration: (2022-2022)
+
+publications:
+  - title: Title placeholder
+    link: 
+    summary: Summary placeholder
+
+highlight-project:
+  title: Name placeholder
+  description: Description placeholder
+
+projects:
+  - name: Name placeholder
+    description: Description placeholder
+  - name: Name placeholder
+    description: Description placeholder
+
+skills:
+  - name: HTML5
+    image: https://img.icons8.com/color/48/000000/html-5--v1.png
+  - name: CSS3
+    image: https://img.icons8.com/color/48/000000/css3.png
+  - name: Git
+    image: https://img.icons8.com/color/48/000000/git.png
+  - name: JavaScript
+    image: https://img.icons8.com/fluency/48/000000/javascript.png
+  - name: Java
+    image: https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png
+  - name: Python
+    image: https://img.icons8.com/color/48/000000/python--v1.png
+  - name: Haskell
+    image: https://img.icons8.com/color/48/000000/haskell.png
+  - name: TypeScript
+    image: https://img.icons8.com/color/48/000000/typescript.png
+  - name: React
+    image: https://img.icons8.com/color/48/000000/react-native.png
+  - name: Oracle
+    image: https://img.icons8.com/color/48/000000/oracle-logo.png
+  - name: MongoDB
+    image: https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png
+  - name: R
+    image: https://img.icons8.com/external-becris-flat-becris/48/000000/external-r-data-science-becris-flat-becris.png
+  - name: C++
+    image: https://img.icons8.com/color/48/000000/c-plus-plus-logo.png
+
+languages:
+  - idiom: English
+    level: Great
+    stars: 5
+  - idiom: Chinese
+    level: Good
+    stars: 4
+  - idiom: Malay
+    level: Decent
+    stars: 3

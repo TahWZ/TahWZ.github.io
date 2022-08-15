@@ -1,7 +1,35 @@
-{% assign home = site.data.data.home %}
-<div>
-  <h1>
-    {{ home.title }}
-  </h1>
+<div class="home">
+    <div class="container sections-wrapper">
+        <section class="section">
+            <div class="section-inner shadow rounded profile-container">
+                <div>     
+                    <div class="profile-content">         
+                        <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.jpg" alt="Profile picture" />
+                    </div>
+                    <div>
+                        <div class="profile-content">
+                            <h1 class="name">{{ site.data.data.profile.name }}</h1> 
+                        </div>
+                        <div class="profile-content about">
+                            <div>
+                                <h2 class="heading">About Me</h2>
+                                <div class="content">
+                                    <p>{{ site.data.data.profile.description }}, <span class="typing-text"></span></p>
+                                </div>
+                            </div>            
+                        </div>
+                        <ul class="profile-content media-icons list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>    
+                            <li class="list-inline-item"><a href="#"><i class="fa-solid fa-message"></i></a></li>   
+                            <li class="list-inline-item"><a href="#"><i class="fa-solid fa-envelope"></i></a></li>                
+                        </ul> 
+                        <div>
+                            <a class="btn btn-cta" href="/assets/download/resume.pdf">Download PDF <i class="fa-solid fa-file-pdf"></i></a>              
+                        </div>
+                    </div>     
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
-Test

@@ -1,0 +1,45 @@
+<div class="contact">
+    <div class="container sections-wrapper">
+        <section class="section">
+            <div class="section-inner shadow rounded contact-container">
+                <div class="content">
+                    <div class="left-side">
+                        <div class="address details">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="topic">Phone</div>
+                            <div class="text">{{ site.data.data.contact.phone }}</div>
+                        </div>
+                        <div class="phone details">
+                            <i class="fas fa-envelope"></i>
+                            <div class="topic">Email</div>
+                            <div class="text">{{ site.data.data.contact.email }}</div>
+                        </div>
+                        <div class="email details">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div class="topic">Linkedin</div>
+                            <div class="text">{{ site.data.data.contact.linkedin }}</div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="topic-text">Contact Me</div>
+                        <p>Looking forward to hearing from you</p>
+                        <form id="contact-form"> 
+                            <div class="input-box">
+                                <input type="text" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea name="message" placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="submit" value="Send Now" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

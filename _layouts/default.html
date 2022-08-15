@@ -1,4 +1,18 @@
 <!DOCTYPE html>
-{{ content }}
+<html lang="en">
+      {% include shared/head.html %}
+      <body>
+        {% include shared/nav-bar.html %}
+
+        <div class="fade-animate">
+      
+          {{ content }}
+          
+        <div>
+
+        {% include shared/scripts.html %}
+
+        {% include shared/footer.html %}
+      </body>
 </html>
 

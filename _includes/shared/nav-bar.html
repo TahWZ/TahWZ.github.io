@@ -1,0 +1,35 @@
+<nav>
+  <div class="nav-bar">
+      <i class='bx bx-menu sidebarOpen' ></i>
+      <div>
+        <div>
+        <span class="navlogo"><a href="/">{{ site.data.data.profile.name }}</a></span>
+        </div>
+        <div>
+          <span class="sublogo"><a href="/">{{ site.data.data.profile.role }}</a></span>
+        </div>
+      </div>
+
+      <div class="menu">
+          <div class="logo-toggle">
+              <span class="menulogo"><a href="/">{{ site.data.data.profile.name }}</a></span>
+              <i class='bx bx-x siderbarClose'></i>
+          </div>
+
+          <ul class="nav-links">
+              {% for current-page in site.data.pages.pages %}
+                  {% if current-page.name == page.section %}
+                  <li><a href={{ current-page.link }} class="active">{{ current-page.name }}</a></li>
+                  {% else %}
+                    <li><a href={{ current-page.link }}>{{ current-page.name }}</a></li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
+      </div>
+
+      <div class="media-icons">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+  </div>
+</nav>
